@@ -1,8 +1,15 @@
 import './App.css';
+import Footer from './component/Footer';
+import Header from './component/Header';
+import MainContent from './component/MainContent';
 
 function App() {
   return (
-    <h1>Welcome to My First React App!</h1>
+    <>
+      <Header/>
+      <MainContent/>
+      <Footer/>
+    </>
 
   );
 }

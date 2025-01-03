@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width:100%;
+    background-color: #f1f1f1; 
+}
+
+.logo {
+    width: 60px;       
+    height: auto;      
+    margin-left: 0; 
+    display: block; 
+        
+}
+
+.login-btn, .signup-btn{
+    height: 30px;
+    background-color: green; 
+    padding: 0 15px;   
+}
+
+footer {
+    width: 100%;          
+    background-color: #f1f1f1; 
+    text-align: center;    
+    padding: 10px;         
+    position: fixed;       
+    bottom: 0;          
+    left: 0;
+}
+main {
+    margin: 20px;       
+    text-align: center;  
+}
